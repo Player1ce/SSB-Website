@@ -1,0 +1,183 @@
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow-y: scroll;
+}
+.outershell {
+  height: 100%;
+  width: 100%;
+  background-color: #292929;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.innershell {
+  width: 80%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left: 10%;
+  /* NOTE: colors
+  black #272a32
+  tet-grey #8c9aac */
+  background-color: #272a32;
+  z-index: 2;
+}
+/* NOTE: position elements
+width: 50%;
+position: fixed;
+top: 0;
+left: 25%;
+ */
+.header-main {
+  clear: both;
+  z-index: 90;
+  border: 5px solid red;
+  border-width: 5px 0 0;
+  display: flex;
+  flex-direction: row/column;
+  padding: 0px 15px 0;
+  position: sticky;
+  top: 0;
+  background-color: #17142d;
+  z-index: 3;
+}
+.logo {
+  height: 110px;
+  width: 115px;
+  padding: 0 0 10px;
+  position: relative;
+  display: block;
+  padding-top: 3px;
+}
+.tourny-hub {
+  background-image: linear-gradient(#FF5F53,#001395);
+  text-decoration: none;
+  font-family: fantasy;
+  font-size: 25pt;
+  padding: 20px 5px 20px 5px;
+  margin: 0;
+  color: black;
+  border-radius: 50px;
+  text-align: center;
+  height: 40px;
+  margin: 20px 5px 25px 5px;
+  display: block;
+  width: 405px;
+}
+.tourny-hub:hover{
+  color: white;
+  background-image: linear-gradient(#001395,#FF5F53);
+}
+/* NOTE: gradient colors
+top
+#FF5F53
+#7C003B
+#001395
+ */
+.navigator {
+  margin-top: 0;
+  border-top: 0;
+  padding-bottom: 20px;
+  flex-grow: 2;
+  flex-shrink: 2;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  margin: 0;
+  border: 0;
+}
+.move {
+  margin-right: 30px;
+  margin-top: 45px;
+  color: red;
+}
+.move-text {
+  color: #8c9aac;
+  text-decoration: none;
+  font-size: 20pt;
+}
+.move-text:hover {
+  color: red;
+}
+
+/* NOTE:  .navigator {
+  display: inline-block;
+  padding: 10px;
+  width: 200px;
+  height: auto;
+}
+*/
+.main-content {
+  position: relative;
+  top: 132px;
+  color: #8c9aac;
+}
+.main-menu {
+  margin: 0;
+  border-spacing: 0;
+}
+.main-title {
+  font-family: cursive;
+}
+.main-elements-64 {
+  border-left: 10px solid #272a32;
+  border-right: 5px solid #272a32;
+  border-top: 10px solid #272a32;
+  border-bottom: 10px solid #272a32;
+  border-spacing: inherit;
+  height: 500px;
+  width: 490px;
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+.main-elements-melee {
+  border-left: 5px solid #272a32;
+  border-right: 5px solid #272a32;
+  border-top: 10px solid #272a32;
+  border-bottom: 10px solid #272a32;
+  border-spacing: inherit;
+  height: 500px;
+  width: 490px;
+  background-image: url(http://playertheory.com/images/Smash.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+.main-elements-4 {
+  border-left: 5px solid #272a32;
+  border-right: 10px solid #272a32;
+  border-top: 10px solid #272a32;
+  border-bottom: 10px solid #272a32;
+  border-spacing: inherit;
+  height: 500px;
+  width: 490px;
+  background-image: url(https://img05.deviantart.net/b1f3/i/2014/027/4/2/super_smash_bros__wii_u_3ds_logo_wallpaper__13_by_thewolfbunny-d740s68.png);
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+.test {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+}
+.test:hover {
+  content: "";
+  text-align: left;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: fantasy;
+  color: white;
+}
+table#menu {
+  width: 100%;
+}
