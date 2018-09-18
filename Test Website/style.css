@@ -53,6 +53,11 @@ left: 25%;
   display: block;
   padding-top: 3px;
 }
+.logo:hover{
+  box-shadow: inset -15px 10px 50px #d96a22;
+
+  border-radius: 60px;
+}
 .tourny-hub {
   background-image: linear-gradient(#FF5F53,#001395);
   text-decoration: none;
