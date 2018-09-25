@@ -53,7 +53,7 @@ left: 25%;
   display: block;
   padding-top: 3px;
 }
-.logo:hover{
+.logo:hover {
   box-shadow: inset -15px 10px 50px #d96a22;
 
   border-radius: 60px;
@@ -73,49 +73,23 @@ left: 25%;
   display: block;
   width: 405px;
 }
-.tourny-hub:hover{
+.tourny-hub:hover {
   color: white;
   background-image: linear-gradient(#001395,#FF5F53);
 }
+.main-title {
+  color: white;
+  font-family: cursive;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+/* Dropdown Menu*/
 /* NOTE: gradient colors
 top
 #FF5F53
 #7C003B
 #001395
  */
-.navigator {
-  margin-top: 0;
-  border-top: 0;
-  padding-bottom: 20px;
-  flex-grow: 2;
-  flex-shrink: 2;
-  display: flex;
-  flex-direction: row;
-  width: 600px;
-  margin: 0;
-  border: 0;
-}
-.move {
-  margin-right: 30px;
-  margin-top: 45px;
-  color: red;
-}
-.move-text {
-  color: #8c9aac;
-  text-decoration: none;
-  font-size: 20pt;
-}
-.move-text:hover {
-  color: red;
-}
-
-/* NOTE:  .navigator {
-  display: inline-block;
-  padding: 10px;
-  width: 200px;
-  height: auto;
-}
-*/
 .main-content {
   position: relative;
   top: 132px;

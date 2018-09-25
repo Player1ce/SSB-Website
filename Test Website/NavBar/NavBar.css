@@ -1,0 +1,82 @@
+/* NOTE: position elements
+width: 50%;
+position: fixed;
+top: 0;
+left: 25%;
+ */
+.header-main {
+  clear: both;
+  z-index: 90;
+  border: 5px solid red;
+  border-width: 5px 0 0;
+  display: flex;
+  flex-direction: row/column;
+  padding: 0px 15px 0;
+  position: sticky;
+  top: 0;
+  background-color: #17142d;
+  z-index: 3;
+}
+.logo {
+  height: 110px;
+  width: 115px;
+  padding: 0 0 10px;
+  position: relative;
+  display: block;
+  padding-top: 3px;
+}
+.logo:hover{
+  box-shadow: inset -15px 10px 50px #d96a22;
+
+  border-radius: 60px;
+}
+.tourny-hub {
+  background-image: linear-gradient(#FF5F53,#001395);
+  text-decoration: none;
+  font-family: fantasy;
+  font-size: 25pt;
+  padding: 20px 5px 20px 5px;
+  margin: 0;
+  color: black;
+  border-radius: 50px;
+  text-align: center;
+  height: 40px;
+  margin: 20px 5px 25px 5px;
+  display: block;
+  width: 405px;
+}
+.tourny-hub:hover{
+  color: white;
+  background-image: linear-gradient(#001395,#FF5F53);
+}
+/* NOTE: gradient colors
+top
+#FF5F53
+#7C003B
+#001395
+ */
+.navigator {
+  margin-top: 0;
+  border-top: 0;
+  padding-bottom: 20px;
+  flex-grow: 2;
+  flex-shrink: 2;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  margin: 0;
+  border: 0;
+}
+.move {
+  margin-right: 30px;
+  margin-top: 45px;
+  color: red;
+}
+.move-text {
+  color: #8c9aac;
+  text-decoration: none;
+  font-size: 20pt;
+}
+.move-text:hover {
+  color: red;
+}
